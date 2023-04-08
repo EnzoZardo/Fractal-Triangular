@@ -25,6 +25,6 @@ export default class Vector2 {
     }
 
     normalize() {
-        return ath.sqrt(Math.pow(this.x, 2) + Math.pow(this.y, 2));
+        return Math.sqrt(Math.pow(this.x, 2) + Math.pow(this.y, 2));
     }
 }
