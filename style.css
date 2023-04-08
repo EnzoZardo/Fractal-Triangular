@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    box-sizing: border-box;
+    justify-content: space-evenly;
+}
+
+body,
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#number-of-points,
+body,
+.container {
+    background: #e0e0e0;
+}
+
+canvas,
+.container {
+    box-shadow: 26px 26px 52px #bebebe, -26px -26px 52px #ffffff;
+}
+
+canvas {
+    border: solid black 2px;
+    border-radius: 50px;
+    background: #fff;
+}
+
+.container {
+    border-radius: 50px;
+    width: 300px;
+    height: 150px;
+    border-radius: 10px;
+    justify-content: space-evenly;
+}
+
+#init-caos {
+    background-color: blue;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    height: 3rem;
+    width: 175px;
+    color: white;
+    transition: background 1s, transform 1s;
+}
+
+#init-caos:hover {
+    background-color: rgb(66, 66, 255);
+    transform: scale(1.1);
+}
+
+#number-of-points {
+    outline: blue;
+    border-style: none none solid none;
+    border-bottom-color: blue;
+    transition: border-bottom-colo1s, transform 1s;
+}
+
+#number-of-points:focus {
+    border-bottom-color: rgb(66, 66, 255);
+    transform: scale(1.1);
+}
